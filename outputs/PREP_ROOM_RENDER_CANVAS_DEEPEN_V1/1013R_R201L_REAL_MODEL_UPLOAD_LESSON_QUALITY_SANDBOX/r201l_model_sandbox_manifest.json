@@ -1,0 +1,79 @@
+{
+  "stage": "1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX",
+  "model_sandbox_only": true,
+  "sample_count": 3,
+  "samples": [
+    {
+      "sample_id": "real_downpour_docx",
+      "lesson_label": "下雨啰",
+      "source_kind": "raw_source_excerpt_from_teacher_snapshot",
+      "raw_source_path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK/sample_snapshots/real_downpour_docx/teacher_readable_lesson_snapshot.md",
+      "source_extraction_path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK/sample_snapshots/real_downpour_docx/instance_to_teacher_snapshot_trace.json"
+    },
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "lesson_label": "旧鞋 / 足下生辉",
+      "source_kind": "r201b_clean_raw_source_snapshot",
+      "raw_source_path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201B_LEAN_CHAIN_SHADOW_RUN/r201b_raw_source_snapshots/old_shoes_zu_xia_sheng_hui_raw_source_snapshot.md",
+      "source_extraction_path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201B_LEAN_CHAIN_SHADOW_RUN/r201b_source_extraction_results/old_shoes_zu_xia_sheng_hui_source_extraction_result.json"
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "lesson_label": "穿穿编编",
+      "source_kind": "r201b_clean_raw_source_snapshot",
+      "raw_source_path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201B_LEAN_CHAIN_SHADOW_RUN/r201b_raw_source_snapshots/weaving_chuanchuan_bianbian_raw_source_snapshot.md",
+      "source_extraction_path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201B_LEAN_CHAIN_SHADOW_RUN/r201b_source_extraction_results/weaving_chuanchuan_bianbian_source_extraction_result.json"
+    }
+  ],
+  "provider_status_sanitized": {
+    "success": true,
+    "provider_name": "openai_compatible",
+    "credential_source": "env",
+    "credential_available": true,
+    "token_preview": null,
+    "external_profile_used": false,
+    "openclaw_auth_profile_used": false,
+    "safe_for_preview_runtime": true,
+    "generation": {
+      "provider": "openai_compatible",
+      "provider_name": "openai_compatible",
+      "model": "MiniMax-M3",
+      "base_url": "https://api.minimaxi.com/v1",
+      "credential_source": "env",
+      "credential_available": true,
+      "token_preview": null,
+      "external_profile_used": false,
+      "openclaw_auth_profile_used": false,
+      "provider_family": "minimax",
+      "reason": "minimax_env",
+      "provider_enabled": true,
+      "fallback_to_mock_allowed": true,
+      "safe_for_preview_runtime": true
+    },
+    "vision": {
+      "enabled": true,
+      "provider": "minimax_vlm",
+      "provider_name": "minimax_vlm",
+      "model": "MiniMax-M3",
+      "base_url": "",
+      "credential_source": "env",
+      "credential_available": true,
+      "token_preview": null,
+      "external_profile_used": false,
+      "openclaw_auth_profile_used": false,
+      "provider_enabled": true,
+      "fallback_to_mock_allowed": true,
+      "safe_for_preview_runtime": true
+    }
+  },
+  "boundary": {
+    "route_connected": false,
+    "rendering_connected": false,
+    "baseline_overwritten": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false
+  }
+}
