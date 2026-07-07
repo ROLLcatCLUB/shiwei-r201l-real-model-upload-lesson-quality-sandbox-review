@@ -1,0 +1,104 @@
+{
+  "stage": "1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX",
+  "provider_meta_sanitized_only": true,
+  "raw_provider_text_saved": false,
+  "calls": [
+    {
+      "sample_id": "real_downpour_docx",
+      "provider_meta_sanitized": {
+        "latency_ms": 24033,
+        "model": "MiniMax-M3",
+        "base_url": "https://api.minimaxi.com/v1",
+        "reasoning_split": true,
+        "provider": "openai_compatible",
+        "credential_source": "env"
+      },
+      "parse_meta": {
+        "parser_mode": "reused_prior_model_output",
+        "provider_output_sanitized": true,
+        "raw_response_saved": false
+      },
+      "model_output_reused": true,
+      "path_normalization": {
+        "episode_path_index_policy": "zero_based_template_array",
+        "one_based_episode_path_detected": true,
+        "normalized_rewrites": [
+          {
+            "from": "episodes[2].teacher",
+            "to": "episodes[1].teacher"
+          },
+          {
+            "from": "episodes[2].evidence",
+            "to": "episodes[1].evidence"
+          },
+          {
+            "from": "episodes[3].teacher",
+            "to": "episodes[2].teacher"
+          },
+          {
+            "from": "episodes[5].teacher",
+            "to": "episodes[4].teacher"
+          },
+          {
+            "from": "episodes[6].talk",
+            "to": "episodes[5].talk"
+          },
+          {
+            "from": "episodes[6].evidence",
+            "to": "episodes[5].evidence"
+          }
+        ]
+      },
+      "model_candidate_patch_raw": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_candidate_patches/real_downpour_docx/model_candidate_patch_raw.json",
+      "model_candidate_patch": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_candidate_patches/real_downpour_docx/model_candidate_patch.json"
+    },
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "provider_meta_sanitized": {
+        "latency_ms": 18294,
+        "model": "MiniMax-M3",
+        "base_url": "https://api.minimaxi.com/v1",
+        "reasoning_split": true,
+        "provider": "openai_compatible",
+        "credential_source": "env"
+      },
+      "parse_meta": {
+        "parser_mode": "reused_prior_model_output",
+        "provider_output_sanitized": true,
+        "raw_response_saved": false
+      },
+      "model_output_reused": true,
+      "path_normalization": {
+        "episode_path_index_policy": "zero_based_template_array",
+        "one_based_episode_path_detected": false,
+        "normalized_rewrites": []
+      },
+      "model_candidate_patch_raw": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_candidate_patches/numbered_colon_old_shoes/model_candidate_patch_raw.json",
+      "model_candidate_patch": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_candidate_patches/numbered_colon_old_shoes/model_candidate_patch.json"
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "provider_meta_sanitized": {
+        "latency_ms": 25266,
+        "model": "MiniMax-M3",
+        "base_url": "https://api.minimaxi.com/v1",
+        "reasoning_split": true,
+        "provider": "openai_compatible",
+        "credential_source": "env"
+      },
+      "parse_meta": {
+        "parser_mode": "reused_prior_model_output",
+        "provider_output_sanitized": true,
+        "raw_response_saved": false
+      },
+      "model_output_reused": true,
+      "path_normalization": {
+        "episode_path_index_policy": "zero_based_template_array",
+        "one_based_episode_path_detected": false,
+        "normalized_rewrites": []
+      },
+      "model_candidate_patch_raw": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_candidate_patches/plain_segment_weaving/model_candidate_patch_raw.json",
+      "model_candidate_patch": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_candidate_patches/plain_segment_weaving/model_candidate_patch.json"
+    }
+  ]
+}
