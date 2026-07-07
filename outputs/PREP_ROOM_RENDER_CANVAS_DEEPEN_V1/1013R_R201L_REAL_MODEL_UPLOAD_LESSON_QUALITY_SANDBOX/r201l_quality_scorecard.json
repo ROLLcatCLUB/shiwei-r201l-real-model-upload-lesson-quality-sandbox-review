@@ -1,0 +1,55 @@
+{
+  "stage": "1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX",
+  "samples": [
+    {
+      "sample_id": "real_downpour_docx",
+      "lesson_label": "下雨啰",
+      "score": 94,
+      "decision": "MODEL_BETTER_THAN_BASELINE",
+      "valid_patch_count": 8,
+      "changed_field_groups": [
+        "episodes[1]",
+        "episodes[2]",
+        "episodes[4]",
+        "episodes[5]",
+        "key_points",
+        "objectives"
+      ],
+      "cross_topic_hits": []
+    },
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "lesson_label": "旧鞋 / 足下生辉",
+      "score": 100,
+      "decision": "MODEL_BETTER_THAN_BASELINE",
+      "valid_patch_count": 8,
+      "changed_field_groups": [
+        "analysis",
+        "episodes[0]",
+        "episodes[1]",
+        "episodes[2]",
+        "episodes[3]",
+        "episodes[4]",
+        "key_points",
+        "objectives"
+      ],
+      "cross_topic_hits": []
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "lesson_label": "穿穿编编",
+      "score": 94,
+      "decision": "MODEL_BETTER_THAN_BASELINE",
+      "valid_patch_count": 8,
+      "changed_field_groups": [
+        "episodes[0]",
+        "episodes[1]",
+        "episodes[4]",
+        "key_points",
+        "objectives",
+        "preparation"
+      ],
+      "cross_topic_hits": []
+    }
+  ]
+}
