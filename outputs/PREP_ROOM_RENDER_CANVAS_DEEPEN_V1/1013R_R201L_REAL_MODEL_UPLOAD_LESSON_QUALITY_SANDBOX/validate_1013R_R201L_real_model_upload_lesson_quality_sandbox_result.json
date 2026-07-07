@@ -1,0 +1,92 @@
+{
+  "stage": "1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX",
+  "status": "PASS",
+  "decision": "MODEL_USEFUL_AS_PATCH_CANDIDATE",
+  "checks": {
+    "r201k_baseline_pass": true,
+    "r201i_contract_pass": true,
+    "source_policy_loaded": true,
+    "gap_policy_loaded": true,
+    "model_called": true,
+    "provider_meta_sanitized": true,
+    "no_api_key_leak": true,
+    "parse_ok": true,
+    "schema_valid": true,
+    "teacher_main_forbidden_sources_zero": true,
+    "engineering_term_in_teacher_main_zero": true,
+    "cross_topic_contamination_zero": true,
+    "hallucinated_required_materials_without_label_zero": true,
+    "model_output_marked_candidate": true,
+    "teacher_review_required": true,
+    "teacher_snapshot_no_python_list_artifact": true,
+    "baseline_not_overwritten": true,
+    "route_not_connected": true,
+    "rendering_not_connected": true,
+    "no_formal_apply": true,
+    "no_write": true,
+    "no_R95": true,
+    "py_compile_pass": true
+  },
+  "sample_results": [
+    {
+      "sample_id": "real_downpour_docx",
+      "lesson_label": "下雨啰",
+      "decision": "MODEL_BETTER_THAN_BASELINE",
+      "score": 94,
+      "model_output_reused": true,
+      "model_candidate_patch": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_candidate_patches/real_downpour_docx/model_candidate_patch.json",
+      "model_patch_after_preview_snapshot": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_teacher_readable_model_candidate_snapshots/real_downpour_docx/model_patch_after_preview_snapshot.md"
+    },
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "lesson_label": "旧鞋 / 足下生辉",
+      "decision": "MODEL_BETTER_THAN_BASELINE",
+      "score": 100,
+      "model_output_reused": true,
+      "model_candidate_patch": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_candidate_patches/numbered_colon_old_shoes/model_candidate_patch.json",
+      "model_patch_after_preview_snapshot": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_teacher_readable_model_candidate_snapshots/numbered_colon_old_shoes/model_patch_after_preview_snapshot.md"
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "lesson_label": "穿穿编编",
+      "decision": "MODEL_BETTER_THAN_BASELINE",
+      "score": 94,
+      "model_output_reused": true,
+      "model_candidate_patch": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_candidate_patches/plain_segment_weaving/model_candidate_patch.json",
+      "model_patch_after_preview_snapshot": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_teacher_readable_model_candidate_snapshots/plain_segment_weaving/model_patch_after_preview_snapshot.md"
+    }
+  ],
+  "outputs": {
+    "model_sandbox_manifest": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_sandbox_manifest.json",
+    "prompt_contract": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_prompt_contract.md",
+    "model_call_log_sanitized": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json",
+    "model_sandbox_run_notes": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_sandbox_run_notes.md",
+    "baseline_vs_model_comparison": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_baseline_vs_model_comparison.md",
+    "model_candidate_patches": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_candidate_patches",
+    "teacher_readable_model_candidate_snapshots": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_teacher_readable_model_candidate_snapshots",
+    "quality_scorecard": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_quality_scorecard.json",
+    "risk_report": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_risk_report.md",
+    "validation_result": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/validate_1013R_R201L_real_model_upload_lesson_quality_sandbox_result.json"
+  },
+  "boundary": {
+    "model_called": true,
+    "provider_called": true,
+    "model_output_candidate_only": true,
+    "baseline_overwritten": false,
+    "route_connected": false,
+    "rendering_connected": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false,
+    "saved": false,
+    "exported": false
+  },
+  "py_compile": {
+    "command": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python314\\python.exe -m py_compile scripts/validate_1013r_r201l_real_model_upload_lesson_quality_sandbox.py",
+    "returncode": 0,
+    "stdout_tail": "",
+    "stderr_tail": ""
+  }
+}
